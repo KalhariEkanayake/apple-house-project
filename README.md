@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Apple House Community Forum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Company “Apple House” launched a new product, and now they create a Forum for their users to ask questions related to the product.
 
-## Available Scripts
+![Welcome to the Apple House Community](images/Welcome_Page.JPG)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
++ As a guest user, can register himself/herself with an email and password so that he/she can login to the forum.
++ As a registered user, can login to the system with email and password so that user can access the forum.
++ As a user, can view all the approved posts on the forum.
++ As a user, can create a post so that it will be sent to admin approval.
++ As a user, can delete his/her own posts so that he/she can remove unwanted posts.
++ As a user, can comment on posts.
++ As a user, can search for a post using the search bar so that he/she can filter posts by matching text or the user.
++ As an admin user, can directly post without requiring approval.
++ As an admin user, can approve/ reject others' posts so that only admin approved posts will be posted.
++ As an admin user, can give feedback for any rejected post.
++ As an admin user, can filter posts by user and post created time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
+### Getting Started
+
++ Install NodeJS and the NPM package manager. (`$ npm install`)
++ Get your own MongoDB database. (you can get one for free at MongoDB Atlas or you can set up one locally)
++ Clone this project to your local machine `https://github.com/KalhariEkanayake/apple-house-project.git`
++ Redirect to `/server` and run `$ npx nodemon server` in terminal. The server will start on port 5001 and gets connected to mongoDB.
++ Now, in another terminal, redirect to `/client` and run `$ npm start`. It will start on port 3000 which is the client side of the application.
+
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Interface Design
 
-### `npm run build`
+### Register Page
+![Register](images/Register_Page.JPG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Login Page
+![Login](images/Login_Page.JPG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Home Page
+![Home](images/Home_Page.JPG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Profile Page
+![Profile](images/Profile_Page.JPG)
 
-### `npm run eject`
+### Create Post Page
+![CreatePost](images/CreatePost_Page.JPG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Check Post Page
+![CheckPost](images/CheckPost_Page.JPG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Rejected Post Page
+![RejectedPost](images/RejectedPost_Page.JPG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Admin Search Page
+![AdminSearch](images/AdminSearch_Page.JPG)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Regular User Search Page
+![UserSearch](images/UserSearch_Page.JPG)
