@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Merriweather:ital@1&display=swap');
+
+.brand-logo {
+    font-family: 'Merriweather', serif;
+    margin-left: 15px;
+}
+
+.mycard {
+    margin-top: 50px;
+}
+
+.auth-card {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.register, .login {
+    font-family: 'Roboto Slab', serif;
+}
+
+.profile, .rejectposts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 30%;
+}
+
+.home-card {
+    max-width: 500px;
+    height: max-content;
+    margin: 26px auto;
+}
+
+.checkpost-card {
+    max-width: 500px;
+    height: max-content;
+    margin: 26px auto !important;
+}
+
+.toast-container {
+    top: 30px !important;
+    right: 20px !important;
+    left: auto !important;
+}
+
+.logo-image {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.search {
+    max-width: 500px;
+    margin: 26px auto;
+}
