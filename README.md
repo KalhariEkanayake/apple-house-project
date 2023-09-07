@@ -22,11 +22,11 @@ Company “Apple House” launched a new product, and now they create a Forum fo
 
 ### Getting Started
 
-+ Install NodeJS and the NPM package manager. (`$ npm install`)
++ Install NodeJS and the NPM package manager.
 + Get your own MongoDB database. (you can get one for free at MongoDB Atlas or you can set up one locally)
-+ Clone this project to your local machine `https://github.com/KalhariEkanayake/apple-house-project.git`
-+ Redirect to `/server` and run `$ npx nodemon server` in terminal. The server will start on port 5001 and gets connected to mongoDB.
-+ Now, in another terminal, redirect to `/client` and run `$ npm start`. It will start on port 3000 which is the client side of the application.
++ Clone this project to your local machine `$ git clone https://github.com/KalhariEkanayake/apple-house-project.git`
++ Redirect to `/server` and run in terminal `$ npm install` and then `$ npx nodemon server`. The server will start on port 5001 and gets connected to mongoDB.
++ Now, in another terminal, redirect to `/client` and run `$ npm install` and then `$ npm start`. It will start on port 3000 which is the client side of the application.
 
 The page will reload when you make changes.
 You may also see any lint errors in the console.
