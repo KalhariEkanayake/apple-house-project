@@ -30,6 +30,12 @@ Company “Apple House” launched a new product, and now they create a Forum fo
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
+If you are facing issues with the proxy set up:
+1. Stop your React app.
+2. Delete ***package-lock.json*** file and the ***node_modules*** directory by doing `$ rm -r package-lock.json node_modules` in the app directory.
+3. Then do `$ npm install` in the app directory.
+
+Hopefully this fixed your proxy issue.
 
 ## User Interface Design
 
